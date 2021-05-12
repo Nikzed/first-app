@@ -1,8 +1,6 @@
 import 'dart:math';
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 void main() => runApp(MyApp());
 
@@ -31,12 +29,6 @@ class MyHome extends StatelessWidget {
 }
 
 Color tmpFunction() {
-  Scaffold(
-    backgroundColor: Colors.black,
-  );
-  print('Function Called.');
-  Random random = new Random();
-  int ran = random.nextInt(10);
   Random randomizer = new Random();
   return Color.fromARGB(randomizer.nextInt(256), randomizer.nextInt(256),
       randomizer.nextInt(256), randomizer.nextInt(256));
