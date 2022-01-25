@@ -1,4 +1,4 @@
-# testing_app
+# first-app
 
 My first flutter app
 
